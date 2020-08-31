@@ -5,7 +5,7 @@ def find_even_values(src)
     while count2 < find_even_values[count].length do
       find_even_values[count][count2]
       count2 += 1
-      if find_even_values[count][count2] % 2 == 0
+      if find_even_values[count][count2] % 2 = 0
         p find_even_values[count][count2]
       end
     end

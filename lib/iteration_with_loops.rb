@@ -1,8 +1,17 @@
 def find_even_values(src)
   count = 0 
   
-  while count < find_even_values.count do 
+  while count < find_even_values.length do 
     count2 = 0
-    while count2 < coun
-
+    while count2 < find_even_values[count].length do
+      find_even_values[count][count2]
+      count2 += 1
+      if find_even_values[count][count2] % 2 == 0
+        p find_even_values[count][count2]
+      end
+    end
+    count += 1
+  end
 end
+
+find_even_values()

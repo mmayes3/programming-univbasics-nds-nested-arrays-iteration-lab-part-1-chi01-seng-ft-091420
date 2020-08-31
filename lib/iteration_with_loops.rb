@@ -1,6 +1,5 @@
 def find_even_values(src)
   count = 0 
-  
   while count < find_even_values.length do 
     count2 = 0
     while count2 < find_even_values[count].length do

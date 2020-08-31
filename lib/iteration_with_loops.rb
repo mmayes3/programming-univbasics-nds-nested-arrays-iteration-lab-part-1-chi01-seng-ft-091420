@@ -1,11 +1,11 @@
 def find_even_values(src)
   count = 0 
-  while count < find_even_values.length do 
+  while count < src.length do 
     count2 = 0
-    while count2 < find_even_values[count].length do
+    while count2 < src[count].length do
       count2 += 1
-      if find_even_values[count][count2] % 2 == 0
-        p find_even_values[count][count2]
+      if src[count][count2] % 2 == 0
+        p src[count][count2]
       end
     end
     count += 1
